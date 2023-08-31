@@ -1,0 +1,10 @@
+a {
+  svg {
+    @apply bg-cyan fill-gray-500 rounded-full w-[14px] h-[14px] p-1 transition-colors;
+  }
+  &:hover {
+    svg {
+      @apply bg-gray-300;
+    }
+  }
+}

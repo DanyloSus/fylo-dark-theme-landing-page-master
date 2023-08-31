@@ -1,0 +1,11 @@
+footer {
+  p {
+    @apply flex items-center gap-5;
+  }
+  a {
+    @apply opacity-70 transition-opacity hover:opacity-100;
+  }
+  svg {
+    @apply fill-white w-[30px] h-[30px] border border-white rounded-full p-1 hover:fill-cyan transition-colors hover:border-cyan cursor-pointer;
+  }
+}

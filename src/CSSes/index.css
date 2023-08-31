@@ -7,7 +7,41 @@
 }
 
 h1,
+h2,
 a,
 button {
   font-family: "Raleway", sans-serif;
+}
+
+button {
+  @apply bg-gradient-to-r from-cyan to-blue rounded-full font-bold hover:opacity-50 transition-opacity;
+}
+
+p {
+  @apply opacity-70;
+}
+
+h1 {
+  @apply font-bold text-[42.7399px];
+}
+
+header a {
+  @apply opacity-70 text-white transition-opacity hover:opacity-100 hover:decoration-white hover:underline;
+}
+
+a svg {
+  @apply bg-cyan fill-gray-500 rounded-full w-[14px] h-[14px] p-1 transition-colors;
+}
+a:hover svg {
+  @apply bg-gray-300;
+}
+
+footer p {
+  @apply flex items-center gap-5;
+}
+footer a {
+  @apply opacity-70 transition-opacity hover:opacity-100;
+}
+footer svg {
+  @apply fill-white w-[30px] h-[30px] border border-white rounded-full p-1 hover:fill-cyan transition-colors hover:border-cyan cursor-pointer;
 }/*# sourceMappingURL=index.css.map */

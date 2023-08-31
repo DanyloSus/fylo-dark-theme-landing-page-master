@@ -9,7 +9,20 @@
 }
 
 h1,
+h2,
 a,
 button {
   font-family: "Raleway", sans-serif;
+}
+
+button {
+  @apply bg-gradient-to-r from-cyan to-blue rounded-full font-bold hover:opacity-50 transition-opacity;
+}
+
+p {
+  @apply opacity-70;
+}
+
+h1 {
+  @apply font-bold text-[42.7399px];
 }
