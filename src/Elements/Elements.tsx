@@ -2,7 +2,7 @@ import Element from "./Element";
 
 const Elements = () => {
   return (
-    <section className="grid grid-cols-[repeat(2,_minmax(0,_400px))] grid-rows-2 mx-auto items-center justify-center gap-20">
+    <section className="grid grid-cols-[repeat(2,_minmax(0,_400px))] grid-rows-2 mx-auto items-center justify-center gap-20 lg:flex flex-col">
       <Element
         img="icon-access-anywhere.svg"
         h2="Access your files, anywhere"

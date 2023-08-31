@@ -1,12 +1,12 @@
 const ProductEl = () => {
   return (
-    <section className="flex items-center justify-center my-[160px]">
+    <section className="flex items-center justify-center my-[160px] lg:flex-col lg:px-5 lg:gap-10 reveal">
       <img
         src="./illustration-stay-productive.png"
         alt="illustration stay productive"
       />
-      <div className="w-[500px] flex flex-col gap-6">
-        <h1>Stay productive, wherever you are</h1>
+      <div className="w-[500px] flex flex-col gap-6 lg:w-auto">
+        <h1 className="lg:text-xl">Stay productive, wherever you are</h1>
         <p className="text-base">
           Never let location be an issue when accessing your files. Fylo has you
           covered for all of your file storage needs.

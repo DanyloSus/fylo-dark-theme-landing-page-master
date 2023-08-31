@@ -18,11 +18,15 @@ button {
 }
 
 p {
-  @apply opacity-70;
+  @apply opacity-70 lg:text-[15px];
 }
 
 h1 {
-  @apply font-bold text-[42.7399px];
+  @apply font-bold text-[42.7399px] lg:text-2xl;
+}
+
+h2 {
+  @apply font-bold;
 }
 
 header a {
@@ -44,4 +48,23 @@ footer a {
 }
 footer svg {
   @apply fill-white w-[30px] h-[30px] border border-white rounded-full p-1 hover:fill-cyan transition-colors hover:border-cyan cursor-pointer;
+}
+
+.reveal {
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: 1s all ease-in-out;
+}
+.reveal.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+.reveal:nth-child(2n) {
+  transform: translateX(150px);
+  opacity: 0;
+  transition: 1s all ease-in-out;
+}
+.reveal:nth-child(2n).active {
+  transform: translateX(0);
+  opacity: 1;
 }/*# sourceMappingURL=index.css.map */

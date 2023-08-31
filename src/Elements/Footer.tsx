@@ -1,12 +1,12 @@
 const Footer = () => {
   return (
-    <footer className="w-screen bg-footer-background px-[120px] pt-[168px]">
+    <footer className="w-screen bg-footer-background px-[120px] pt-[168px] lg:pt-[250px] lg:px-7 lg:pb-[42px]">
       <img
         src="./logo.svg"
         alt="logo"
-        className="w-[108px] object-cover mb-10"
+        className="w-[108px] object-cover mb-10 lg:w-[176px] lg:pl-3"
       />
-      <div className="grid grid-cols-6 grid-rows-4 gap-10">
+      <div className="grid grid-cols-6 grid-rows-4 gap-10 lg:flex flex-col">
         <div className=" col-span-2 row-span-2">
           <p className="flex items-start gap-5">
             <img src="./icon-location.svg" alt="icon location" /> Lorem ipsum
@@ -34,7 +34,7 @@ const Footer = () => {
           <a href="#">Terms</a>
           <a href="#">Privacy</a>
         </div>
-        <div className=" col-span-1 row-span-1 flex gap-5">
+        <div className=" col-span-1 row-span-1 flex gap-5 lg:w-full lg:flex lg:justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="1em"

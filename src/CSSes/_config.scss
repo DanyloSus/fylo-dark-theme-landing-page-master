@@ -20,9 +20,13 @@ button {
 }
 
 p {
-  @apply opacity-70;
+  @apply opacity-70 lg:text-[15px];
 }
 
 h1 {
-  @apply font-bold text-[42.7399px];
+  @apply font-bold text-[42.7399px] lg:text-2xl;
+}
+
+h2 {
+  @apply font-bold;
 }

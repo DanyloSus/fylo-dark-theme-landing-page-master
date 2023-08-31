@@ -15,6 +15,9 @@ export default {
 
         white: "hsl(0, 0%, 100%)",
       },
+      screens: {
+        lg: { max: "1024px" },
+      },
     },
   },
   plugins: [],
